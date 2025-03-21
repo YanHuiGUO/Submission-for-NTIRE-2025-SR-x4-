@@ -8,7 +8,7 @@
     CUDA_VISIBLE_DEVICES=0 python test.py --test_dir DIV2K_test_LR_bicubic/X4 --save_dir NTIRE2025_ImageSR_x4/results --model_id 7
     ```
     - Be sure the change the directories `--data_dir` and `--save_dir`.
-    - We provide one model (team16): team16_augmented_swinfir. The code and pretrained model are provided.
+    - We provide one model (team07): team07_MicroSR. The code and pretrained model are provided.
     - The pretrained model can be downloaded with [link](https://drive.google.com/file/d/1onGAT8KDs56cODjF8AXgsFiD9YW9FS3x/view?usp=sharing) and please place it in the model_zoo folder.
 
 
