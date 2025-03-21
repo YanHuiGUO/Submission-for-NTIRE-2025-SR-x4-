@@ -24,8 +24,8 @@ def select_model(args, device):
     elif model_id == 7:
         from models.team07_MicroSR import main as MicroSR
         name = f"team{model_id:02}_MicroSR"
-        # model_path = os.path.join('model_zoo',name, 'MircorSR_X4.pth')
-        model_path = os.path.join('model_zoo',name, 'MircorSR_X4')
+        # model_path = os.path.join('model_zoo',name, 'MicroSR_X4.pth')
+        model_path = os.path.join('model_zoo',name, 'MicroSR_X4')
         model_func = MicroSR
     else:
         raise NotImplementedError(f"Model {model_id} is not implemented.")
